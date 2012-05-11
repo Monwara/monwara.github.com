@@ -1,0 +1,14 @@
+.pixmap { 
+  background-image: url('../img/pixmaps.png'); 
+  display: inline-block;
+  vertical-align: middle;
+}
+.pixmap-notext {
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.pixmap-bullet{ background-position: 0 0; width: 30px; height: 30px; } 
+.pixmap-logo{ background-position: 0 -31px; width: 299px; height: 198px; } 
+.pixmap-mail{ background-position: 0 -230px; width: 19px; height: 14px; } 
+.pixmap-tag{ background-position: 0 -245px; width: 193px; height: 22px; } 
+

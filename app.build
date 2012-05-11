@@ -1,0 +1,16 @@
+({
+  appDir: '.',
+  baseUrl: 'js',
+  dir: '../build',
+  uglify: {
+    top_level: false,
+    ascii_only: false,
+    beautify: false
+  },
+  optimizeCss: 'standard',
+  inlineText: true,
+  findNestedDependencies: true,
+  modules: [
+    {name: 'boot', path: 'js/boot'}
+  ]
+})
