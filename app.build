@@ -1,7 +1,7 @@
 ({
   appDir: '.',
   baseUrl: 'js',
-  dir: '../build',
+  dir: '../tmp',
   uglify: {
     top_level: false,
     ascii_only: false,
