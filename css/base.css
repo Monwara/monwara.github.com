@@ -70,3 +70,8 @@ header #logo {
 .main-inner li .pixmap {
   margin-right: 0.3em;
 }
+
+#copy {
+  text-align: center;
+  margin: 4em 0 4em;
+}
