@@ -6,7 +6,7 @@
 body, html {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 11pt;
+    font-size: 16pt;
 }
 
 header {
@@ -41,8 +41,8 @@ header #logo {
 }
 
 .main-inner {
-    padding-top: 2em;
-    margin: 54px auto 0;
+    padding-top: 1em;
+    margin: 46px auto 0;
     width: 480px;
     background: #fff;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
@@ -71,16 +71,16 @@ header #logo {
 
 .main-inner p {
     text-align: center;
-    margin: 4em 0 4em;
+    margin: 1em 0 2em;
 }
 
 .main-inner .tagline {
-    font-size: 120%;
+    font-size: 100%;
 }
 
 body {
     background: #162d50;
-    color: #e3e2db;
+    color: #555;
 }
 
 header {
@@ -99,7 +99,11 @@ header {
 }
 
 a {
-    color: #00ccff;
+    color: #132544;
+}
+
+a:hover {
+    color: #254d89;
 }
 
 h2 {
@@ -122,10 +126,8 @@ h3 {
     margin-bottom: 1em;
 }
 
-#about {
-    font-size: 18px;
-}
-
 #copy {
     font-size: 12px;
+    padding-bottom: 3em;
+    color: #aaa;
 }
