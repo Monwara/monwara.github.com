@@ -6,13 +6,14 @@
 body, html {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 11pt;
+    font-size: 16pt;
 }
 
 header {
     display: block;
     position: relative;
-    height: 140px;
+    height: 249px;
+    padding-top: 0.2px;
 }
 
 header #subtitle {
@@ -24,20 +25,27 @@ header #subtitle {
 }
 
 header #logo {
-    position: absolute;
-    width: 100%;
-    top: 40px;
+    width: 480px;
+    height: 233px;
+    background: #fff url('../img/logo.png') center center no-repeat;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+    text-align: left;
+    text-indent: -126000px;
+    margin: 50px auto 0;
     text-align: center;
 }
 
 .main {
     min-height: 266px;
+    padding-top: 0.2px;
 }
 
 .main-inner {
-    padding-top: 60px;
-    margin: 0 auto;
-    width: 600px;
+    padding-top: 1em;
+    margin: 46px auto 0;
+    width: 480px;
+    background: #fff;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
 }
 
 .main-inner #about {
@@ -63,16 +71,16 @@ header #logo {
 
 .main-inner p {
     text-align: center;
-    margin: 4em 0 4em;
+    margin: 1em 0 2em;
 }
 
 .main-inner .tagline {
-    font-size: 120%;
+    font-size: 100%;
 }
 
 body {
     background: #162d50;
-    color: #e3e2db;
+    color: #555;
 }
 
 header {
@@ -91,42 +99,11 @@ header {
 }
 
 a {
-    color: #00ccff;
+    color: #132544;
 }
 
-.pixmap {
-    background-image: url(../img/pixmaps.png);
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.pixmap-notext {
-    overflow: hidden;
-    text-indent: -9999px;
-}
-
-.pixmap-bullet {
-    background-position: 0 0;
-    width: 30px;
-    height: 30px;
-}
-
-.pixmap-logo {
-    background-position: 0 -31px;
-    width: 299px;
-    height: 198px;
-}
-
-.pixmap-mail {
-    background-position: 0 -230px;
-    width: 19px;
-    height: 14px;
-}
-
-.pixmap-tag {
-    background-position: 0 -245px;
-    width: 193px;
-    height: 22px;
+a:hover {
+    color: #254d89;
 }
 
 h2 {
@@ -149,10 +126,8 @@ h3 {
     margin-bottom: 1em;
 }
 
-#about {
-    font-size: 18px;
-}
-
 #copy {
     font-size: 12px;
+    padding-bottom: 3em;
+    color: #aaa;
 }
